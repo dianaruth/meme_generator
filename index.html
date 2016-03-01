@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/skeleton.css">
+        <link rel="stylesheet" type="text/css" href="css/custom.css">
+        <script src="//use.edgefonts.net/londrina-shadow.js"></script> 
+    </head>
+    <body onload="createScrollbar()">
+        <div class="row" id="header">
+            <h1>Sydney Meme Generator</h1>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="wrapper">
+                    <div id="scrollbar"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="six columns">
+                    <div class="canvas-wrapper">
+                        <canvas id="canvas" width="300" height="400">
+                            Your browser does not support the HTML5 canvas tag.
+                        </canvas>
+                    </div>
+                </div>
+                <div class="six columns">
+                    <h5 id="instructions">Enter text in the boxes below to add text to the image.</h5>
+                    <label>Row 1</label>
+                    <input class="u-full-width" type="text" id="text-input-1">
+                    <label>Row 2</label>
+                    <input class="u-full-width" type="text" id="text-input-2">
+                    <label id="label3">Row 3</label>
+                    <input class="u-full-width" type="text" id="text-input-3">
+                    <label>Row 4</label>
+                    <input class="u-full-width" type="text" id="text-input-4">
+                    <a class="button button-primary" id="download">Download Meme</a>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
+        <script type="text/javascript" src="js/custom.js"></script>
+    </body>
+</html>
