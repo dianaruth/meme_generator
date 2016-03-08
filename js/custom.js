@@ -1,4 +1,4 @@
-var images = ['pic1', 'pic2', 'pic3', 'pic4', 'pic5', 'pic6', 'pic7'];
+var images = ['pic1', 'pic2', 'pic3', 'pic4', 'pic5', 'pic6', 'pic8', 'pic9', 'pic10'];
 var currentPic = null;
 var oneY = 50;
 var twoY = 100;
@@ -24,10 +24,6 @@ function downloadCanvas(link, canvasId, filename) {
     link.download = filename;
 }
 
-/** 
- * The event handler for the link's onclick event. We give THIS as a
- * parameter (=the link element), ID of the canvas and a filename.
-*/
 document.getElementById('download').addEventListener('click', function() {
     downloadCanvas(this, 'canvas', 'meme.png');
 }, false);
