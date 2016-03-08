@@ -1,4 +1,4 @@
-var images = ['pic1', 'pic2', 'pic3', 'pic4', 'pic5', 'pic6', 'pic9', 'pic10', 'pic11', 'pic12'];
+var images = ['pic1', 'pic2', 'pic3', 'pic4', 'pic5', 'pic6', 'pic9', 'pic10', 'pic11', 'pic12', 'pic13'];
 var currentPic = null;
 var oneY = 50;
 var twoY = 100;
